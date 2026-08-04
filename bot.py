@@ -189,14 +189,14 @@ log = logging.getLogger("bot")
 #  CONFIG
 # ══════════════════════════════════════════════════════════════════════════════
 
-TOKEN = "794587178nXs78pFbk0" 
+TOKEN = "8526188355:AAGq2ESiPU_jGwCqpfCV8AYuexwewWCd6YU" 
 
 # ── Join requirements ─────────────────────────────────────────────────────────
-join_channel_id = -100161       # Replace with your channel ID
-join_chat_id    = -1002500064       # Replace with your group ID
+join_channel_id = -1004327521175       # Replace with your channel ID
+join_chat_id    = -1004327521175       # Replace with your group ID
 
-CHANNEL_LINK = "https://t.me/kamal_xd"
-GROUP_LINK   = "https://t.me/+QHnID1HBNqZkN2U0"
+CHANNEL_LINK = "https://t.me/+l7TDd0yX9L5jNTZl"
+GROUP_LINK   = "https://t.me/+l7TDd0yX9L5jNTZl"
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 BASE_DIR   = os.path.dirname(os.path.abspath(__file__))
@@ -340,7 +340,7 @@ async def _do_gen_ban(message: types.Message, user_id: int, reason: str, filenam
 
     # Notify owner + all admins
     recipients: list[int] = []
-    if auth.OWNER_ID:
+    if auth.OWNER_ID:8421362535
         recipients.append(auth.OWNER_ID)
     for admin_id in auth.load_admins():
         if admin_id not in recipients:
