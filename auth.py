@@ -16,7 +16,7 @@ CHARGED_FILE  = os.path.join(BASE_DIR, "charged.txt")
 NOPECHA_FILE  = os.path.join(BASE_DIR, "nopecha.json")   # {str(user_id): api_key}
 
 OWNER_ID          = 8421362535
-FREE_GROUP_ID     = -1002323855240
+FREE_GROUP_ID     = --1004327521175
 
 # ── CC limits per role ────────────────────────────────────────────────────────
 CC_LIMITS = {
@@ -232,7 +232,7 @@ def generate_keys(max_users: int, days: int, created_by: int = 0) -> list[str]:
     data = load_keys()
     charset = string.ascii_letters + string.digits
     rand_part = "".join(random.choices(charset, k=20))
-    key = f"Kamal-{rand_part}"
+    key = f"ZYN-SHOP-{rand_part}"
     data[key] = {
         "days": days,
         "created_by": created_by,
