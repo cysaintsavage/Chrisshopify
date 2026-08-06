@@ -340,7 +340,7 @@ async def _do_gen_ban(message: types.Message, user_id: int, reason: str, filenam
 
     # Notify owner + all admins
     recipients: list[int] = []
-    if auth.OWNER_ID:8421362535
+    if auth.OWNER_ID:
         recipients.append(auth.OWNER_ID)
     for admin_id in auth.load_admins():
         if admin_id not in recipients:
