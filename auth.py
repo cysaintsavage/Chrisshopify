@@ -20,10 +20,10 @@ FREE_GROUP_ID     = --1004327521175
 
 # ── CC limits per role ────────────────────────────────────────────────────────
 CC_LIMITS = {
-    "owner":   20000000,
-    "admin":   15000,
-    "premium": 10000,
-    "free":    200,
+    "owner":   200000000000,
+    "admin":   10000000,
+    "premium": 5000,
+    "free":    1500,
 }
 
 # ── mtime-based cache for hot permission files ────────────────────────────────
