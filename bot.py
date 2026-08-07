@@ -189,13 +189,13 @@ log = logging.getLogger("bot")
 #  CONFIG
 # ══════════════════════════════════════════════════════════════════════════════
 
-TOKEN = "8526188355:AAGq2ESiPU_jGwCqpfCV8AYuexwewWCd6YU" 
+TOKEN = "8658341623:AAGYEXjEC6yZ1jQgt1YnVTAxdaz5GNBCyxA" 
 
 # ── Join requirements ─────────────────────────────────────────────────────────
 join_channel_id = -1004327521175       # Replace with your channel ID
 join_chat_id    = -1004327521175       # Replace with your group ID
 
-CHANNEL_LINK = "https://t.me/+l7TDd0yX9L5jNTZl"
+CHANNEL_LINK = "https://t.me/+f8JGqxtYpQBkOWVh"
 GROUP_LINK   = "https://t.me/+l7TDd0yX9L5jNTZl"
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
