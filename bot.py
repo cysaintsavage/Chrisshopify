@@ -91,8 +91,7 @@ from helpers import (
     gate_is_charged, gate_is_approved, proxy_dict_to_url,
 )
 import checker_bridge
-import auth
-import ayden
+import auth
 try:
     import webshare as _webshare_mod
     _WEBSHARE_AVAILABLE = True
